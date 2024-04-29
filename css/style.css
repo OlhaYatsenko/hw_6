@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 12px auto;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles START */
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.header__logo {
+    padding: 0 0 5px 0;
+}
+
+.header__logo img {
+    max-width: 150px;
+}
+
+.header__nav {
+    color: black;
+}
+
+.header__nav dl {
+    display: flex;
+    gap: 55px;
+}
+
+.header__nav a {
+    text-decoration: none;
+}
+
+.header__nav__selected {
+    font-weight: bold;
+}
+
+/* Button styles START */
+.login__button {
+    display: flex;
+    align-items: center; /* Вирівнює елементи вертикально по центру */
+    justify-content: center; /* Вирівнює елементи горизонтально по центру */
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #46A358;
+    border-radius: 5px;
+    border-color: #46A358;
+}
+
+.login__button__text {
+    vertical-align: middle;
+}
+
+.login__button__icon {
+    background-image: url('.././assets/Logout_icon.png');
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+/* Button styles END */
+
+/* Header styles END */
+
+/* Main styles START */
+
+/* Banner styles START */
+
+.main__banner {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FAFAFA;
+}
+
+.main__banner__text__block{
+    width: 693px;
+    padding: 24px 0 7px 43px;
+}
+
+.main__banner__text{
+    font-size: 14px;
+}
+
+.main__banner__title{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.main__banner__title__planet{
+    color: #46A358;
+}
+
+.main__banner__image__block{
+    width: 507px;
+}
+
+/* Button Shop now START*/
+
+.main__banner__buy__button {
+    margin: 44px 0;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: #46A358;
+    border-color: #46A358;
+}
+
+/* Button Shop now END*/
+
+/* Banner styles END */
+
+/* Main styles END */
+
